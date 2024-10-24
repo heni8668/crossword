@@ -12,10 +12,22 @@ const Page = styled.div`
   padding: 2em;
 `;
 
-const Commands = styled.div``;
+const Commands = styled.div`
+margin: 10px;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+`;
 
 const Command = styled.button`
   margin-right: 1em;
+  padding: 1em 1em;
+  background-color: #f8f3f3;
+  border: none;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
 `;
 
 const CrosswordWrapper = styled.div`
